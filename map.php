@@ -54,16 +54,16 @@ function createMap($stantions)
     for ($i = 0; $i < count($stantions); $i++) {
         if ($maxY <= $stantions[$i][1]) {
             $maxY = $stantions[$i][1];
-        };
+        }
         if ($maxX <= $stantions[$i][2]) {
             $maxX = $stantions[$i][2];
-        };
+        }
         if ($minY >= $stantions[$i][1]) {
             $minY = $stantions[$i][1];
-        };
+        }
         if ($minX >= $stantions[$i][2]) {
             $minX = $stantions[$i][2];
-        };
+        }
     }
         for ($i = 0; $i < count($stantions); $i++) {
             $x = 1500 - (150 + 1200 * (($maxX - $stantions[$i][2]) / ($maxX - $minX)));
@@ -97,16 +97,16 @@ function createMapInFile($stantions,$fileName)
     for ($i = 0; $i < count($stantions); $i++) {
         if ($maxY <= $stantions[$i][1]) {
             $maxY = $stantions[$i][1];
-        };
+        }
         if ($maxX <= $stantions[$i][2]) {
             $maxX = $stantions[$i][2];
-        };
+        }
         if ($minY >= $stantions[$i][1]) {
             $minY = $stantions[$i][1];
-        };
+        }
         if ($minX >= $stantions[$i][2]) {
             $minX = $stantions[$i][2];
-        };
+        }
     }
         for ($i = 0; $i < count($stantions); $i++) {
             $x = 1500 - (150 + 1200 * (($maxX - $stantions[$i][2]) / ($maxX - $minX)));
@@ -123,7 +123,7 @@ function createMapInFile($stantions,$fileName)
         }
     fwrite($fp,"</svg>");
     fclose($fp);
-};
+}
 
 $name = "map2.svg";
 createMapInFile($sity, $name);
