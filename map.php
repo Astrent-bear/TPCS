@@ -1,5 +1,4 @@
 <?php
-//$sity = [ "kyiv", "chernigiv", "zhytomyr", "vinnycya", "khmelnytskyi", "lviv", "lutsk", "rivne", "ternopil", "ivano-phrankivsk","sumy", "poltava", "kremenchuk", "kharkiv", "lozova", "slavyansk", "mykytivka", "yasynyvata", "donetsk", "laryne", "dnipro","zaporizzhya", "simpheropol", "sevastopol", "kryvyi_rig", "cherkasy", "kropyvnytskyi", "mykolaiv", "odesa", "kherson" ];
 
 $sity = [
     ["kyiv", 50.4499875, 30.5234937],
@@ -33,7 +32,38 @@ $sity = [
     ["odesa", 46.4713468, 30.7296333],
     ["kherson", 46.6551209, 32.6131115],
 ];
-
+$connect = [
+    [0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0],#"kyiv"               1
+    [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"chernigiv"          2
+    [1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"zhytomyr"           3
+    [1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0],#"vinnycya"           4
+    [0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0],#"khmelnytskyi"       5
+    [0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"lviv"               6
+    [0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"lutsk"              7
+    [0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"rivne"              8
+    [0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"ternopil"           9
+    [0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"ivano-phrankivsk"   10
+    [1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"sumy"               11
+    [1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0],#"poltava"            12
+    [0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"kremenchuk"         13
+    [0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],#"kharkiv"            14
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],#"lozova"             15
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0],#"slavyansk"          16
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0],#"mykytivka"          17
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0],#"yasynyvata"         18
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0],#"donetsk"            19
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0],#"laryne"             20
+    [1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0],#"dnipro"             21
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1],#"zaporizzhya"        22
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1],#"simpheropol"        23
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],#"sevastopol"         24
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0],#"kryvyi_rig"         25
+    [1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0],#"cherkasy"           26
+    [1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0],#"kropyvnytskyi"      27
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1],#"mykolaiv"           28
+    [0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0],#"odesa"              29
+    [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0]#"kherson"             30
+];
 /*
 print_r("maxX = {$maxX} ; minX = {$minX}\n");
 print_r("maxY = {$maxY} ; minY = {$minY}\n");
@@ -44,41 +74,42 @@ print_r($maxY-$minY." - Y \n"); */ //testprintmax
     maxY = 38.894928 ; minY = 24.031597
  */ //state
 
-function createMap($stantions)
+/*
+function createMap($sity)
 {
 
     $maxX = 0;
     $minX = 100;
     $maxY = 0;
     $minY = 100;
-    for ($i = 0; $i < count($stantions); $i++) {
-        if ($maxY <= $stantions[$i][1]) {
-            $maxY = $stantions[$i][1];
+    for ($i = 0; $i < count($sity); $i++) {
+        if ($maxY <= $sity[$i][1]) {
+            $maxY = $sity[$i][1];
         }
-        if ($maxX <= $stantions[$i][2]) {
-            $maxX = $stantions[$i][2];
+        if ($maxX <= $sity[$i][2]) {
+            $maxX = $sity[$i][2];
         }
-        if ($minY >= $stantions[$i][1]) {
-            $minY = $stantions[$i][1];
+        if ($minY >= $sity[$i][1]) {
+            $minY = $sity[$i][1];
         }
-        if ($minX >= $stantions[$i][2]) {
-            $minX = $stantions[$i][2];
+        if ($minX >= $sity[$i][2]) {
+            $minX = $sity[$i][2];
         }
     }
-        for ($i = 0; $i < count($stantions); $i++) {
-            $x = 1500 - (150 + 1200 * (($maxX - $stantions[$i][2]) / ($maxX - $minX)));
-            $y = 50 + 450 * (($maxY - $stantions[$i][1]) / ($maxY - $minY));
+        for ($i = 0; $i < count($sity); $i++) {
+            $x = 1500 - (150 + 1200 * (($maxX - $sity[$i][2]) / ($maxX - $minX)));
+            $y = 50 + 450 * (($maxY - $sity[$i][1]) / ($maxY - $minY));
             print_r("<circle cx=\"{$x}\" cy=\"{$y}\" r=\"5\" fill=\"red\" /> \n");
         }
 
-        for ($i = 0; $i < count($stantions); $i++) {
-            $x = 1500 - (140 + 1200 * (($maxX - $stantions[$i][2]) / ($maxX - $minX)));
-            $y = 50 + 450 * (($maxY - $stantions[$i][1]) / ($maxY - $minY));
-            print_r("<text x=\"{$x}\" y=\"{$y}\" font-size=\"20\" text-anchor=\"start\" fill=\"black\">{$stantions[$i][0]}</text> \n");
+        for ($i = 0; $i < count($sity); $i++) {
+            $x = 1500 - (140 + 1200 * (($maxX - $sity[$i][2]) / ($maxX - $minX)));
+            $y = 50 + 450 * (($maxY - $sity[$i][1]) / ($maxY - $minY));
+            print_r("<text x=\"{$x}\" y=\"{$y}\" font-size=\"20\" text-anchor=\"start\" fill=\"black\">{$sity[$i][0]}</text> \n");
         }
-}
+} */ //createmap in text(print_r)
 
-function createMapInFile($stantions,$fileName)
+function createMapInFile($sity,$connect,$fileName)
 {
     $fp = fopen($fileName, "w");
 
@@ -94,40 +125,56 @@ function createMapInFile($stantions,$fileName)
     $minX = 100;
     $maxY = 0;
     $minY = 100;
-    for ($i = 0; $i < count($stantions); $i++) {
-        if ($maxY <= $stantions[$i][1]) {
-            $maxY = $stantions[$i][1];
+    for ($i = 0; $i < count($sity); $i++) {
+        if ($maxY <= $sity[$i][1]) {
+            $maxY = $sity[$i][1];
         }
-        if ($maxX <= $stantions[$i][2]) {
-            $maxX = $stantions[$i][2];
+        if ($maxX <= $sity[$i][2]) {
+            $maxX = $sity[$i][2];
         }
-        if ($minY >= $stantions[$i][1]) {
-            $minY = $stantions[$i][1];
+        if ($minY >= $sity[$i][1]) {
+            $minY = $sity[$i][1];
         }
-        if ($minX >= $stantions[$i][2]) {
-            $minX = $stantions[$i][2];
+        if ($minX >= $sity[$i][2]) {
+            $minX = $sity[$i][2];
         }
     }
-        for ($i = 0; $i < count($stantions); $i++) {
-            $x = 1500 - (150 + 1200 * (($maxX - $stantions[$i][2]) / ($maxX - $minX)));
-            $y = 50 + 450 * (($maxY - $stantions[$i][1]) / ($maxY - $minY));
-            $text = ("<circle cx=\"{$x}\" cy=\"{$y}\" r=\"5\" fill=\"red\" /> \n");
-            fwrite($fp, $text);
-        }
+    for ($i = 0; $i < count($sity); $i++) {
+        $x = 1500 - (150 + 1200 * (($maxX - $sity[$i][2]) / ($maxX - $minX)));
+        $y = 50 + 450 * (($maxY - $sity[$i][1]) / ($maxY - $minY));
+        $text = ("<circle cx=\"{$x}\" cy=\"{$y}\" r=\"5\" fill=\"red\" /> \n");
+        fwrite($fp, $text);
+    }
 
-        for ($i = 0; $i < count($stantions); $i++) {
-            $x = 1500 - (140 + 1200 * (($maxX - $stantions[$i][2]) / ($maxX - $minX)));
-            $y = 50 + 450 * (($maxY - $stantions[$i][1]) / ($maxY - $minY));
-            $text = ("<text x=\"{$x}\" y=\"{$y}\" font-size=\"20\" text-anchor=\"start\" fill=\"black\">{$stantions[$i][0]}</text> \n");
-            fwrite($fp, $text);
+    for ($i = 0; $i < count($sity); $i++) {
+        $x = 1500 - (140 + 1200 * (($maxX - $sity[$i][2]) / ($maxX - $minX)));
+        $y = 50 + 450 * (($maxY - $sity[$i][1]) / ($maxY - $minY));
+        $text = ("<text x=\"{$x}\" y=\"{$y}\" font-size=\"20\" text-anchor=\"start\" fill=\"black\">{$sity[$i][0]}</text> \n");
+        fwrite($fp, $text);
+    }
+    for ($i = 0; $i < count($sity); $i++) {
+        for ($u = 0 ; $u <= $i ; $u++){
+            if($connect[$i][$u] == true) {
+                $x1 = 1500 - (150 + 1200 * (($maxX - $sity[$i][2]) / ($maxX - $minX)));
+                $y1 = 50 + 450 * (($maxY - $sity[$i][1]) / ($maxY - $minY));
+                $x2 = 1500 - (150 + 1200 * (($maxX - $sity[$u][2]) / ($maxX - $minX)));
+                $y2 = 50 + 450 * (($maxY - $sity[$u][1]) / ($maxY - $minY));
+                fwrite($fp," <line x1=\"{$x1}\" x2=\"{$x2}\" y1=\"{$y1}\" y2=\"{$y2}\" stroke=\"green\" stroke-width=\"1\" stroke-linecap=\"round\"/> \n");
+
+            }
         }
+    } 
+    
     fwrite($fp,"</svg>");
     fclose($fp);
 }
 
 $name = "map2.svg";
-createMapInFile($sity, $name);
+createMapInFile($sity,$connect, $name);
 //createMap($sity);
+
+
+
 
 
 
