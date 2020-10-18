@@ -1,0 +1,122 @@
+{
+  "kyiv": {
+"coord": [50.4499875,30.5234937],
+"connect": ["chernigiv", "zhytomyr", "vinnycya", "cherkasy", "sumy", "poltava", "dnipro", "kropyvnytskyi"]
+},
+"chernigiv": {
+"coord": [51.494099,31.294332],
+"connect": ["kyiv"]
+},
+"zhytomyr": {
+"coord": [50.2598298,28.6692345],
+"connect": ["kyiv", "rivne"]
+},
+"vinnycya": {
+"coord": [49.2320162,28.467975],
+"connect": ["kyiv", "khmelnytskyi", "odesa"]
+},
+"khmelnytskyi": {
+"coord": [49.4196404,26.9793793],
+"connect": ["ternopil", "vinnycya", "odesa"]
+},
+"lviv": {
+"coord": [49.8419503,24.031597],
+"connect": ["lutsk", "rivne", "ternopil", "ivano-phrankivsk"]
+},
+"lutsk": {
+"coord": [50.7450733,25.320078],
+"connect": ["lviv", "rivne"]
+},
+"rivne": {
+"coord": [50.6196175,26.2513165],
+"connect": ["lviv", "zhytomyr", "lutsk"]
+},
+"ternopil": {
+"coord": [49.5557716,25.591886],
+"connect": ["lviv", "khmelnytskyi", "ivano-phrankivsk"]
+},
+"ivano-phrankivsk": {
+"coord": [48.9225224,24.7103188],
+"connect": ["lviv", "ternopil"]
+},
+"sumy": {
+"coord": [50.9133081,34.7947025],
+"connect": ["kyiv", "kharkiv"]
+},
+"poltava": {
+"coord": [49.5895681,34.5503455],
+"connect": ["kyiv", "cherkasy", "kropyvnytskyi", "kharkiv", "kremenchuk"]
+},
+"kremenchuk": {
+"coord": [49.0797222,33.4325],
+"connect": ["kharkiv", "poltava"]
+},
+"kharkiv": {
+"coord": [49.99026,36.2303797],
+"connect": ["sumy", "poltava", "kremenchuk", "lozova"]
+},
+"lozova": {
+"coord": [48.88916,36.31359],
+"connect": ["kharkiv"]
+},
+"slavyansk": {
+"coord": [48.8522691,37.6058241],
+"connect": ["mykytivka"]
+},
+"mykytivka": {
+"coord": [48.3373636,38.894928],
+"connect": ["slavyansk", "yasynyvata", "laryne"]
+},
+"yasynyvata": {
+"coord": [48.1247511,37.8512479],
+"connect": ["mykytivka", "donetsk", "laryne"]
+},
+"donetsk": {
+"coord": [48.0010795,37.8042198],
+"connect": ["dnipro", "zaporizzhya", "yasynyvata", "laryne"]
+},
+"laryne": {
+"coord": [47.88983,37.92884],
+"connect": ["yasynyvata", "mykytivka", "donetsk"]
+},
+"dnipro": {
+"coord": [48.4680221,35.0417711],
+"connect": ["kropyvnytskyi", "kryvyi_rig", "zaporizzhya", "donetsk", "kyiv"]
+},
+"zaporizzhya": {
+"coord": [47.8598576,35.1097643],
+"connect": ["dnipro", "kherson", "simpheropol", "donetsk", "kryvyi_rig"]
+},
+"simpheropol": {
+"coord": [44.9521394,34.1024575],
+"connect": ["zaporizzhya", "sevastopol", "kherson"]
+},
+"sevastopol": {
+"coord": [44.6114503,33.5224182],
+"connect": ["simpheropol"]
+},
+"kryvyi_rig": {
+"coord": [47.9059085,33.3941061],
+"connect": ["dnipro", "zaporizzhya", "mykolaiv"]
+},
+"cherkasy": {
+"coord": [49.4453159,32.0585778],
+"connect": ["kyiv", "poltava", "odesa", "kropyvnytskyi"]
+},
+"kropyvnytskyi": {
+"coord": [48.510613,32.2656472],
+"connect": ["poltava", "dnipro", "odesa", "cherkasy", "kyiv"]
+},
+"mykolaiv": {
+"coord": [46.9635124,32.0066825],
+"connect": ["odesa", "kherson", "kryvyi_rig"]
+},
+"odesa": {
+"coord": [46.4713468,30.7296333],
+"connect": ["khmelnytskyi", "cherkasy", "vinnycya", "kropyvnytskyi", "mykolaiv"]
+},
+"kherson": {
+"coord": [46.6551209,32.6131115],
+"connect": ["mykolaiv", "zaporizzhya", "simpheropol"]
+}
+}
