@@ -122,7 +122,7 @@ $graph3 = [
     'ternopil' => ['lviv', 'khmelnytskyi', 'ivano-phrankivsk'],
     'ivano-phrankivsk' => ['lviv', 'ternopil'],
 ];
-function wayDoor($way, $finish, $graph, $temp)
+function wayDoor($way, $finish, $graph, $temp) //рекурсивная функция которая офигивает от происходящего
 {
     $woop = [];
     $way[] = $temp; //добавили к пути новую точку
@@ -167,7 +167,7 @@ function wayDoor($way, $finish, $graph, $temp)
     }
 }
 
-function hell($start, $finish, $graph) // город откуда/городкуда/ ассоциативный граф связности
+function hell($start, $finish, $graph) // город откуда/городкуда/ ассоциативный масив связности
 {
     $result = [];
     $way = [];
@@ -182,7 +182,7 @@ function hell($start, $finish, $graph) // город откуда/городку
 
 }
 
-$tuk = hell("kyiv", "lviv", $graph2);
+$tuk = hell("kyiv", "lviv", $graph3); //основной запрос
 //print_r('tuk:');
 //print_r($tuk);
 //print_r($city);
@@ -194,57 +194,41 @@ foreach ($tuk as $value) {
     $la = $la . json_encode($value);
     // fwrite($fp, $la);
     // print_r("\n");
-}
+} //перекатываем многомерный многопустотный масив
 
 //fclose($fp);
 
 
-/*print_r($la);
-print_r("\n ky:");
-print_r(strripos($la, '["')); //142
-print_r("\n lvy:");
-print_r(strripos($la, '"]')); //211  +2
-print_r("\n sub: ");
-print_r(substr($la, 142, 213 - 142));
-$la = substr_replace($la, '', 141, 213 - 142);
-print_r("\n minus: ");*/
-//print_r($la);
-//print_r("\n");
 $ways = [];
 
 while (strripos($la, '["')) {
     $startPos = strripos($la, '["');
     $lastPos = strripos($la, '"]') + 2;
-    $ways[] = substr($la, $startPos , $lastPos - $startPos);
-    $la = substr_replace($la, '', $startPos - 1, strlen($la)-1);
+    $ways[] = substr($la, $startPos + 2, $lastPos - $startPos - 4);
+    $la = substr_replace($la, '', $startPos - 1, strlen($la) - 1);
     //print_r($la);
     //print_r("\n");
 }
-print_r($ways);
-
-/*
-function wayDoor($way,$finish,$graph,$temp)
-{
-    $near = [];
-    $way[] = $temp; //добавили к пути новую точку
-    $near = $graph[$way[array_key_last($way)]]; //по точке получили соседей
-    for ($i = 0; $i < count($way); $i++) //удалили в соседях все повторения с пути
-    {
-        if (array_search($way[$i], $near)) {
-            array_splice($near, array_search($way[$i], $near), 1);
-        }
-    };
-
-    if ($near == true) //если соседи есть проводим рекурсию киев и черновцы (черновцы с киевом)
-        {
-        for ($i = 0; $i < count($near); $i++) {
-            if (array_search($finish, $near)) {
-                return $way[]=$near[$i]};
-            $near[$i] = $temp;
-            wayDoor($way, $finish, $graph, $temp);
-        }
+for ($i = 0; $i < count($ways); $i++) {
+    while (strripos($ways[$i], '"')) {
+        $ways[$i] = str_replace('"', '', $ways[$i]);
     }
-}*/ //waydoor
+}
+print_r($ways);
+$waysN = [];
+for ($i = 0; $i < count($ways); $i++) {
+    $waysN[$i] = explode(',', $ways[$i]);
+}
+print_r($waysN);
+
+
+
+
+
+
+
+
+
 
 
 /*
