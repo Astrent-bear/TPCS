@@ -6,5 +6,7 @@
             "email": "barabashvalentyn@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-json": "*"
+    }
 }

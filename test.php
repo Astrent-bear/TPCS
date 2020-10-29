@@ -221,6 +221,7 @@ while (strripos($la, '["')) {
     //print_r("\n");
 }
 print_r($ways);
+
 /*
 function wayDoor($way,$finish,$graph,$temp)
 {
