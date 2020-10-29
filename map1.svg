@@ -1,72 +1,116 @@
-<svg version="1.1"
-     baseProfile="full"
-     width="1600" height="600"
-     xmlns="http://www.w3.org/2000/svg">
-
-    <rect width="100%" height="100%" fill="black" />
-    <rect x="1%" y="1%" width="98%" height="98%" fill="white" />
-
-    <circle cx="674.12719867438" cy="118.26589522141" r="5" fill="red" />
-    <circle cx="736.36129411368" cy="50" r="5" fill="red" />
-    <circle cx="524.42246290552" cy="130.69874901504" r="5" fill="red" />
-    <circle cx="508.17365568997" cy="197.89905810535" r="5" fill="red" />
-    <circle cx="387.99098331323" cy="185.63184911646" r="5" fill="red" />
-    <circle cx="150" cy="158.02046528977" r="5" fill="red" />
-    <circle cx="254.0262912802" cy="98.972652781189" r="5" fill="red" />
-    <circle cx="329.21039368631" cy="107.17517952064" r="5" fill="red" />
-    <circle cx="275.97087422732" cy="176.73134544845" r="5" fill="red" />
-    <circle cx="204.797014209" cy="218.13432160209" r="5" fill="red" />
-    <circle cx="1018.9658193039" cy="87.973157775726" r="5" fill="red" />
-    <circle cx="999.23750941158" cy="174.52166925213" r="5" fill="red" />
-    <circle cx="908.98757822187" cy="207.85631482252" r="5" fill="red" />
-    <circle cx="1134.8760846408" cy="148.32370930104" r="5" fill="red" />
-    <circle cx="1141.5941184382" cy="220.31561555655" r="5" fill="red" />
-    <circle cx="1245.9234185123" cy="222.72760921242" r="5" fill="red" />
-    <circle cx="1350" cy="256.39306056693" r="5" fill="red" />
-    <circle cx="1265.7378571466" cy="270.29404973117" r="5" fill="red" />
-    <circle cx="1261.9410151062" cy="278.3799222529" r="5" fill="red" />
-    <circle cx="1272.0023021757" cy="285.65361544604" r="5" fill="red" />
-    <circle cx="1038.913051859" cy="247.85037190697" r="5" fill="red" />
-    <circle cx="1044.4025239026" cy="287.61326507918" r="5" fill="red" />
-    <circle cx="963.07700138011" cy="477.72513145993" r="5" fill="red" />
-    <circle cx="916.24717837475" cy="500" r="5" fill="red" />
-    <circle cx="905.88782353027" cy="284.60237408311" r="5" fill="red" />
-    <circle cx="798.06314008616" cy="183.95313856423" r="5" fill="red" />
-    <circle cx="814.78101308516" cy="245.06570195861" r="5" fill="red" />
-    <circle cx="793.87334171593" cy="346.21793278509" r="5" fill="red" />
-    <circle cx="690.77000370913" cy="378.39660841618" r="5" fill="red" />
-    <circle cx="842.83375307998" cy="366.38112591741" r="5" fill="red" />
-    <text x="684.12719867438" y="118.26589522141" font-size="20" text-anchor="start" fill="black">kyiv</text>
-    <text x="746.36129411368" y="50" font-size="20" text-anchor="start" fill="black">chernigiv</text>
-    <text x="534.42246290552" y="130.69874901504" font-size="20" text-anchor="start" fill="black">zhytomyr</text>
-    <text x="518.17365568997" y="197.89905810535" font-size="20" text-anchor="start" fill="black">vinnycya</text>
-    <text x="397.99098331323" y="185.63184911646" font-size="20" text-anchor="start" fill="black">khmelnytskyi</text>
-    <text x="160" y="158.02046528977" font-size="20" text-anchor="start" fill="black">lviv</text>
-    <text x="264.0262912802" y="98.972652781189" font-size="20" text-anchor="start" fill="black">lutsk</text>
-    <text x="339.21039368631" y="107.17517952064" font-size="20" text-anchor="start" fill="black">rivne</text>
-    <text x="285.97087422732" y="176.73134544845" font-size="20" text-anchor="start" fill="black">ternopil</text>
-    <text x="214.797014209" y="218.13432160209" font-size="20" text-anchor="start" fill="black">ivano-phrankivsk</text>
-    <text x="1028.9658193039" y="87.973157775726" font-size="20" text-anchor="start" fill="black">sumy</text>
-    <text x="1009.2375094116" y="174.52166925213" font-size="20" text-anchor="start" fill="black">poltava</text>
-    <text x="918.98757822187" y="207.85631482252" font-size="20" text-anchor="start" fill="black">kremenchuk</text>
-    <text x="1144.8760846408" y="148.32370930104" font-size="20" text-anchor="start" fill="black">kharkiv</text>
-    <text x="1151.5941184382" y="220.31561555655" font-size="20" text-anchor="start" fill="black">lozova</text>
-    <text x="1255.9234185123" y="222.72760921242" font-size="20" text-anchor="start" fill="black">slavyansk</text>
-    <text x="1360" y="256.39306056693" font-size="20" text-anchor="start" fill="black">mykytivka</text>
-    <text x="1275.7378571466" y="270.29404973117" font-size="20" text-anchor="start" fill="black">yasynyvata</text>
-    <text x="1271.9410151062" y="278.3799222529" font-size="20" text-anchor="start" fill="black">donetsk</text>
-    <text x="1282.0023021757" y="285.65361544604" font-size="20" text-anchor="start" fill="black">laryne</text>
-    <text x="1048.913051859" y="247.85037190697" font-size="20" text-anchor="start" fill="black">dnipro</text>
-    <text x="1054.4025239026" y="287.61326507918" font-size="20" text-anchor="start" fill="black">zaporizzhya</text>
-    <text x="973.07700138011" y="477.72513145993" font-size="20" text-anchor="start" fill="black">simpheropol</text>
-    <text x="926.24717837475" y="500" font-size="20" text-anchor="start" fill="black">sevastopol</text>
-    <text x="915.88782353027" y="284.60237408311" font-size="20" text-anchor="start" fill="black">kryvyi_rig</text>
-    <text x="808.06314008616" y="183.95313856423" font-size="20" text-anchor="start" fill="black">cherkasy</text>
-    <text x="824.78101308516" y="245.06570195861" font-size="20" text-anchor="start" fill="black">kropyvnytskyi</text>
-    <text x="803.87334171593" y="346.21793278509" font-size="20" text-anchor="start" fill="black">mykolaiv</text>
-    <text x="700.77000370913" y="378.39660841618" font-size="20" text-anchor="start" fill="black">odesa</text>
-    <text x="852.83375307998" y="366.38112591741" font-size="20" text-anchor="start" fill="black">kherson</text>
-
-
-
+<svg version="1.1" 
+baseProfile="full" 
+width="1600" height="600" 
+xmlns="http://www.w3.org/2000/svg"> 
+<rect width="100%" height="100%" fill="black" /> 
+<rect x="1%" y="1%" width="98%" height="98%" fill="white" /> 
+<circle cx="674.12719867438" cy="118.26589522141" r="5" fill="red" /> 
+<circle cx="736.36129411368" cy="50" r="5" fill="red" /> 
+<circle cx="524.42246290552" cy="130.69874901504" r="5" fill="red" /> 
+<circle cx="508.17365568997" cy="197.89905810535" r="5" fill="red" /> 
+<circle cx="387.99098331323" cy="185.63184911646" r="5" fill="red" /> 
+<circle cx="150" cy="158.02046528977" r="5" fill="red" /> 
+<circle cx="254.0262912802" cy="98.972652781189" r="5" fill="red" /> 
+<circle cx="329.21039368631" cy="107.17517952064" r="5" fill="red" /> 
+<circle cx="275.97087422732" cy="176.73134544845" r="5" fill="red" /> 
+<circle cx="204.797014209" cy="218.13432160209" r="5" fill="red" /> 
+<circle cx="1018.9658193039" cy="87.973157775726" r="5" fill="red" /> 
+<circle cx="999.23750941158" cy="174.52166925213" r="5" fill="red" /> 
+<circle cx="908.98757822187" cy="207.85631482252" r="5" fill="red" /> 
+<circle cx="1134.8760846408" cy="148.32370930104" r="5" fill="red" /> 
+<circle cx="1141.5941184382" cy="220.31561555655" r="5" fill="red" /> 
+<circle cx="1245.9234185123" cy="222.72760921242" r="5" fill="red" /> 
+<circle cx="1350" cy="256.39306056693" r="5" fill="red" /> 
+<circle cx="1265.7378571466" cy="270.29404973117" r="5" fill="red" /> 
+<circle cx="1261.9410151062" cy="278.3799222529" r="5" fill="red" /> 
+<circle cx="1272.0023021757" cy="285.65361544604" r="5" fill="red" /> 
+<circle cx="1038.913051859" cy="247.85037190697" r="5" fill="red" /> 
+<circle cx="1044.4025239026" cy="287.61326507918" r="5" fill="red" /> 
+<circle cx="963.07700138011" cy="477.72513145993" r="5" fill="red" /> 
+<circle cx="916.24717837475" cy="500" r="5" fill="red" /> 
+<circle cx="905.88782353027" cy="284.60237408311" r="5" fill="red" /> 
+<circle cx="798.06314008616" cy="183.95313856423" r="5" fill="red" /> 
+<circle cx="814.78101308516" cy="245.06570195861" r="5" fill="red" /> 
+<circle cx="793.87334171593" cy="346.21793278509" r="5" fill="red" /> 
+<circle cx="690.77000370913" cy="378.39660841618" r="5" fill="red" /> 
+<circle cx="842.83375307998" cy="366.38112591741" r="5" fill="red" /> 
+<text x="684.12719867438" y="118.26589522141" font-size="20" text-anchor="start" fill="black">kyiv</text> 
+<text x="746.36129411368" y="50" font-size="20" text-anchor="start" fill="black">chernigiv</text> 
+<text x="534.42246290552" y="130.69874901504" font-size="20" text-anchor="start" fill="black">zhytomyr</text> 
+<text x="518.17365568997" y="197.89905810535" font-size="20" text-anchor="start" fill="black">vinnycya</text> 
+<text x="397.99098331323" y="185.63184911646" font-size="20" text-anchor="start" fill="black">khmelnytskyi</text> 
+<text x="160" y="158.02046528977" font-size="20" text-anchor="start" fill="black">lviv</text> 
+<text x="264.0262912802" y="98.972652781189" font-size="20" text-anchor="start" fill="black">lutsk</text> 
+<text x="339.21039368631" y="107.17517952064" font-size="20" text-anchor="start" fill="black">rivne</text> 
+<text x="285.97087422732" y="176.73134544845" font-size="20" text-anchor="start" fill="black">ternopil</text> 
+<text x="214.797014209" y="218.13432160209" font-size="20" text-anchor="start" fill="black">ivano-phrankivsk</text> 
+<text x="1028.9658193039" y="87.973157775726" font-size="20" text-anchor="start" fill="black">sumy</text> 
+<text x="1009.2375094116" y="174.52166925213" font-size="20" text-anchor="start" fill="black">poltava</text> 
+<text x="918.98757822187" y="207.85631482252" font-size="20" text-anchor="start" fill="black">kremenchuk</text> 
+<text x="1144.8760846408" y="148.32370930104" font-size="20" text-anchor="start" fill="black">kharkiv</text> 
+<text x="1151.5941184382" y="220.31561555655" font-size="20" text-anchor="start" fill="black">lozova</text> 
+<text x="1255.9234185123" y="222.72760921242" font-size="20" text-anchor="start" fill="black">slavyansk</text> 
+<text x="1360" y="256.39306056693" font-size="20" text-anchor="start" fill="black">mykytivka</text> 
+<text x="1275.7378571466" y="270.29404973117" font-size="20" text-anchor="start" fill="black">yasynyvata</text> 
+<text x="1271.9410151062" y="278.3799222529" font-size="20" text-anchor="start" fill="black">donetsk</text> 
+<text x="1282.0023021757" y="285.65361544604" font-size="20" text-anchor="start" fill="black">laryne</text> 
+<text x="1048.913051859" y="247.85037190697" font-size="20" text-anchor="start" fill="black">dnipro</text> 
+<text x="1054.4025239026" y="287.61326507918" font-size="20" text-anchor="start" fill="black">zaporizzhya</text> 
+<text x="973.07700138011" y="477.72513145993" font-size="20" text-anchor="start" fill="black">simpheropol</text> 
+<text x="926.24717837475" y="500" font-size="20" text-anchor="start" fill="black">sevastopol</text> 
+<text x="915.88782353027" y="284.60237408311" font-size="20" text-anchor="start" fill="black">kryvyi_rig</text> 
+<text x="808.06314008616" y="183.95313856423" font-size="20" text-anchor="start" fill="black">cherkasy</text> 
+<text x="824.78101308516" y="245.06570195861" font-size="20" text-anchor="start" fill="black">kropyvnytskyi</text> 
+<text x="803.87334171593" y="346.21793278509" font-size="20" text-anchor="start" fill="black">mykolaiv</text> 
+<text x="700.77000370913" y="378.39660841618" font-size="20" text-anchor="start" fill="black">odesa</text> 
+<text x="852.83375307998" y="366.38112591741" font-size="20" text-anchor="start" fill="black">kherson</text> 
+ <line x1="736.36129411368" x2="674.12719867438" y1="50" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="524.42246290552" x2="674.12719867438" y1="130.69874901504" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="508.17365568997" x2="674.12719867438" y1="197.89905810535" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="387.99098331323" x2="508.17365568997" y1="185.63184911646" y2="197.89905810535" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="254.0262912802" x2="150" y1="98.972652781189" y2="158.02046528977" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="329.21039368631" x2="524.42246290552" y1="107.17517952064" y2="130.69874901504" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="329.21039368631" x2="150" y1="107.17517952064" y2="158.02046528977" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="329.21039368631" x2="254.0262912802" y1="107.17517952064" y2="98.972652781189" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="275.97087422732" x2="387.99098331323" y1="176.73134544845" y2="185.63184911646" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="275.97087422732" x2="150" y1="176.73134544845" y2="158.02046528977" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="204.797014209" x2="150" y1="218.13432160209" y2="158.02046528977" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="204.797014209" x2="275.97087422732" y1="218.13432160209" y2="176.73134544845" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1018.9658193039" x2="674.12719867438" y1="87.973157775726" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="999.23750941158" x2="674.12719867438" y1="174.52166925213" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="908.98757822187" x2="999.23750941158" y1="207.85631482252" y2="174.52166925213" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1134.8760846408" x2="1018.9658193039" y1="148.32370930104" y2="87.973157775726" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1134.8760846408" x2="999.23750941158" y1="148.32370930104" y2="174.52166925213" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1134.8760846408" x2="908.98757822187" y1="148.32370930104" y2="207.85631482252" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1141.5941184382" x2="1134.8760846408" y1="220.31561555655" y2="148.32370930104" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1350" x2="1245.9234185123" y1="256.39306056693" y2="222.72760921242" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1265.7378571466" x2="1350" y1="270.29404973117" y2="256.39306056693" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1261.9410151062" x2="1265.7378571466" y1="278.3799222529" y2="270.29404973117" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1272.0023021757" x2="1350" y1="285.65361544604" y2="256.39306056693" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1272.0023021757" x2="1265.7378571466" y1="285.65361544604" y2="270.29404973117" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1272.0023021757" x2="1261.9410151062" y1="285.65361544604" y2="278.3799222529" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1038.913051859" x2="674.12719867438" y1="247.85037190697" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1038.913051859" x2="1141.5941184382" y1="247.85037190697" y2="220.31561555655" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1038.913051859" x2="1261.9410151062" y1="247.85037190697" y2="278.3799222529" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1044.4025239026" x2="1261.9410151062" y1="287.61326507918" y2="278.3799222529" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="1044.4025239026" x2="1038.913051859" y1="287.61326507918" y2="247.85037190697" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="963.07700138011" x2="1044.4025239026" y1="477.72513145993" y2="287.61326507918" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="916.24717837475" x2="963.07700138011" y1="500" y2="477.72513145993" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="905.88782353027" x2="1038.913051859" y1="284.60237408311" y2="247.85037190697" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="905.88782353027" x2="1044.4025239026" y1="284.60237408311" y2="287.61326507918" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="798.06314008616" x2="674.12719867438" y1="183.95313856423" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="798.06314008616" x2="999.23750941158" y1="183.95313856423" y2="174.52166925213" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="814.78101308516" x2="674.12719867438" y1="245.06570195861" y2="118.26589522141" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="814.78101308516" x2="999.23750941158" y1="245.06570195861" y2="174.52166925213" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="814.78101308516" x2="1038.913051859" y1="245.06570195861" y2="247.85037190697" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="814.78101308516" x2="798.06314008616" y1="245.06570195861" y2="183.95313856423" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="793.87334171593" x2="905.88782353027" y1="346.21793278509" y2="284.60237408311" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="690.77000370913" x2="508.17365568997" y1="378.39660841618" y2="197.89905810535" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="690.77000370913" x2="387.99098331323" y1="378.39660841618" y2="185.63184911646" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="690.77000370913" x2="798.06314008616" y1="378.39660841618" y2="183.95313856423" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="690.77000370913" x2="814.78101308516" y1="378.39660841618" y2="245.06570195861" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="690.77000370913" x2="793.87334171593" y1="378.39660841618" y2="346.21793278509" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="842.83375307998" x2="1044.4025239026" y1="366.38112591741" y2="287.61326507918" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="842.83375307998" x2="963.07700138011" y1="366.38112591741" y2="477.72513145993" stroke="green" stroke-width="1" stroke-linecap="round"/> 
+ <line x1="842.83375307998" x2="793.87334171593" y1="366.38112591741" y2="346.21793278509" stroke="green" stroke-width="1" stroke-linecap="round"/> 
 </svg>
